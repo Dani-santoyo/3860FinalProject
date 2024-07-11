@@ -1,0 +1,4 @@
+CREATE TABLE Room(roomNumber INTEGER Primary Key not Null, roomName text not null, roomDescription text not null, exits text not null)
+INSERT INTO Room(roomNumber, roomName, roomDescription, exits) Values(1, 'Entrance', 'A dark, spooky, hole in the ground', 'east , west')
+INSERT INTO Room(roomNumber, roomName, roomDescription, exits) Values(2, 'Hall', 'A dark, slimy, tunnel leading down', 'east, west')
+INSERT INTO Room(roomNumber, roomName, roomDescription, exits) Values(3, 'Cavern', 'A huge, dark, cave. You cannot see across the cave, it disappears to the east.', 'west')

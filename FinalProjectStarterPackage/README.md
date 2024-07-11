@@ -1,0 +1,1 @@
+#  Do not forget to complete configuration with sqlite jdbc driver package (*.jar)
